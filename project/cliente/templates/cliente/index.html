@@ -12,8 +12,10 @@
         {% for cliente in clientes %}
         <li>{{cliente.apellido}}, {{cliente.nombre}} </li>
             
-        {% endfor %}
+        {% endfor %}    
     </ul>   
+
+    <button> <a href="{% url 'core:index' %}">Inicio</a></button>
 
 </body>
 </html>
