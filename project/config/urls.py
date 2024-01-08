@@ -24,6 +24,6 @@ urlpatterns = [
     # path("saludo/", saludo),
     # path("saludo2/", saludo2),
     # path("tirar_dados/", tirar_dados),
-    path("", include ("core.urls"))
-
+    path("", include ("core.urls")),
+    path("cliente", include ("cliente.urls")),
 ]
